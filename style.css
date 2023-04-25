@@ -1,0 +1,175 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans:wght@500;700&family=Stick+No+Bills:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans:wght@500;700&family=Quicksand&family=Stick+No+Bills:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Arvo:wght@700&family=Josefin+Sans:wght@500;700&family=Quicksand&family=Stick+No+Bills:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Arvo:wght@700&family=Josefin+Sans:wght@500;700&family=Marck+Script&family=Quicksand&family=Stick+No+Bills:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Arvo:wght@700&family=Bad+Script&family=Josefin+Sans:wght@500;700&family=Marck+Script&family=Quicksand&family=Stick+No+Bills:wght@800&display=swap');
+
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+  
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link {
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+.item1 img {
+    max-width: 40vw;
+    min-width: 280px;
+    height: 300px;
+}
+
+.item2 {
+    max-width: 450px;
+    font-size: 1rem;
+}
+
+
+.item3 {
+  max-width: 450px;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+
+.item4 {
+  max-width: 450px;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+#aboutus h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#aboutus p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#aboutus {
+    background-color: rgb(255, 247, 237);
+    line-height: 1.4rem;
+    font-weight: 200;
+    
+}
+
+/* bootstarp */
+a {
+  color: #f96332;
+}
+.m-t-5{
+  margin-top: 5px;   
+}
+.card {
+  background: #fff;
+  margin-bottom: 30px;
+  transition: .5s;
+  border: 0;
+  border-radius: .1875rem;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  box-shadow: none;
+}
+.card .body {
+  font-size: 14px;
+  color: #424242;
+  padding: 20px;
+  font-weight: 400;
+}
+.profile-page .profile-header {
+  position: relative
+}
+
+.profile-page .profile-header .profile-image img {
+  border-radius: 50%;
+  width: 140px;
+  border: 3px solid #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+}
+
+.profile-page .profile-header .social-icon a {
+  margin: 0 5px
+}
+
+.profile-page .profile-sub-header {
+  min-height: 60px;
+  width: 100%
+}
+
+.profile-page .profile-sub-header ul.box-list {
+  display: inline-table;
+  table-layout: fixed;
+  width: 100%;
+  background: #eee
+}
+
+.profile-page .profile-sub-header ul.box-list li {
+  border-right: 1px solid #e0e0e0;
+  display: table-cell;
+  list-style: none
+}
+
+.profile-page .profile-sub-header ul.box-list li:last-child {
+  border-right: none
+}
+
+.profile-page .profile-sub-header ul.box-list li a {
+  display: block;
+  padding: 15px 0;
+  color: #424242
+}
+
+#menu {
+  font-family: 'Alata', sans-serif;
+}
